@@ -1,0 +1,157 @@
+@media (max-width: 600px) {
+
+.LogoHome{
+    display: none;
+}
+
+  .HomeWrap{
+    margin: auto;
+    display: block;
+    width:100%;
+    height: 100vh;
+}
+
+.Natacion{
+  width:100%;
+  height: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/responsive_natacion.jpg");
+}
+
+.Natacion:hover{
+  width:100%;
+  height: 25%;
+}
+
+.Ciclismo{
+  width:100%;
+  height: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/responsive_ciclismo.jpg");
+}
+
+.Ciclismo:hover{
+  width:100%;
+  height: 25%;
+}
+
+.Runing{
+  width:100%;
+  height: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/responsive_running.jpg");
+}
+
+.Runing:hover{
+  width:100%;
+  height: 25%;
+}
+
+.Triathlon{
+  width:100%;
+  height: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/responsive_triathlon.jpg");
+}
+
+.Triathlon:hover{
+  width:100%;
+  height: 25%;
+}
+
+input{
+  top: -20px;
+  height: 150px;
+}
+
+.TitleHome{
+  top: 70%;
+}
+
+/* -----------------------------Aqui comienza ciclismo */
+
+.logoANegro{
+  display: block;
+  width: 20%;
+}
+
+#VideoDeporte{
+  left: -150%;
+}
+
+/* ---------------------------------Aquí comineza jersey */
+
+.JerseyWrap{
+  display: block;
+}
+
+.JerseyInfo .NavJersey nav{
+  background: #ffffffd1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Mockup{
+  margin-top: 30%;
+  padding: 50px 0 50px 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.JerseyInfo{
+  width: 100%;
+  height: auto;
+}
+
+.JerseyInfo .NavJersey ul {
+    width: 50%;
+    padding: 0;
+    height: 20%;
+}
+
+.JerseyInfo .NavJersey ul li img{
+  width: 70px;
+}
+
+.JerseyDetalles img:hover{
+  width: 250px;
+  margin-right: 500px;
+  transform: translate(0px, 10px);
+  margin: 0;
+}
+
+.JerseyInfo .NavJersey ul li h2{
+  font-size: 1.5rem;
+}
+
+.JerseyEspecificaciones{
+  display: block;
+  height: auto;
+  margin: 0;
+}
+
+.JerseyTexto{
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.JerseyDetalles{
+  width: 90%;
+  display: flex;
+  overflow: auto;
+}
+
+.JerseyDetalles img{
+  width: 100px;
+  height: auto;
+  padding: 30px 20px 30px 20px;
+  transition: 0.3s;
+}
+
+.Mockup2{
+  background: #D4CA9F;
+  margin: 0;
+  padding: 50px 0 50px 0;
+}
+
+
+}

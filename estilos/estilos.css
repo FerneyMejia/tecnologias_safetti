@@ -1,0 +1,307 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: hsl(0 0% 10% / 1);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.LogoHome{
+  position: absolute;
+  top: -44%;
+  left: 0%;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+  width: 8%;
+}
+
+.HomeWrap{
+  margin: auto;
+  display: flex;
+  height: 100vh;
+}
+
+.Natacion{
+  width: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/NatacionHome.jpg");
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.Natacion:hover{
+  filter: brightness(1.2);
+  /* background-size: 105%; */
+  width: 26%;
+  transition-duration: 0.3s;
+}
+
+
+.Ciclismo{
+  width: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/CiclismoHome.jpg");
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Ciclismo:hover{
+  filter: brightness(1.2);
+  width: 26%;
+   transition-duration: 0.3s;
+}
+
+.Triathlon{
+  width: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/TriHome.jpg");
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Triathlon:hover{
+  filter: brightness(1.2);
+  width: 26%;
+   transition-duration: 0.3s;
+}
+
+.Runing{
+  width: 25%;
+  background-image: url("http://ferneygrafico.com/videoSafetti/RuningHome.jpg");
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Runing:hover{
+  filter: brightness(1.2);
+  width: 26%;
+   transition-duration: 0.3s;
+}
+
+input{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 90vh;
+  cursor: pointer;
+  filter: opacity(0);
+  /* background: red; */
+}
+
+img{
+  /* position: absolute; */
+  z-index: 1;
+  height: 100%;
+  object-fit: contain;
+}
+
+.TitleHome{
+  display: flex;
+  position: relative;
+  top: 85%;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10;
+  align-items: center;
+  width: 80%;
+}
+
+.lineaTitleHome{
+  position: relative;
+  z-index: 10;
+  width: 40px;
+  height: 2px;
+  background: white;
+  border: none;
+}
+
+h1{
+  color: white;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+}
+
+
+/* -------------------Aqui comienza ciclismo */
+
+.logoANegro:hover{
+  filter: invert(100%);
+  transition-duration: 0.5s;
+}
+
+#VideoDeporte{
+  position: fixed;
+  left: 0;
+  top:0;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: auto;
+  max-height: auto;
+  z-index:-10;
+}
+
+.NavCiclismo {
+  position: relative;
+  top: 700px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8rem;
+}
+
+.NavCiclismo ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavCiclismo li{
+  width: 120px;
+  padding: 20px;
+  list-style: none;
+}
+
+.NavCiclismo img{
+  width: 100%;
+  margin: auto;
+  filter: opacity(0.5);
+  cursor: pointer;
+}
+
+.NavCiclismo img:hover{
+  width: 108%;
+  transform: translate(0px, -10px);
+  filter: opacity(1);
+  transition-duration: 0.5s;
+}
+
+
+/* ---------------------Aqui comienza Jersey */
+
+.JerseyWrap{
+  display: flex;
+}
+
+.Mockup{
+  width: 40%;
+  height: 800px;
+  text-align: center;
+}
+
+.Mockup img{
+  width: 70%;
+}
+
+.JerseyInfo{
+  background: white;
+  width: 60%;
+}
+
+
+.JerseyInfo .NavJersey ul{
+  list-style: none;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 400px;
+}
+
+.JerseyInfo .NavJersey nav{
+  background: #ffffffd1;
+  position: fixed;
+  width: 60%;
+}
+
+
+.JerseyInfo .NavJersey ul li{
+  margin: 10px;
+}
+
+
+.JerseyInfo .NavJersey ul li img{
+  width: 100px;
+  margin-top: 20px;
+}
+
+.JerseyInfo .NavJersey ul li img:hover{
+  filter: invert(50%);
+  transition-duration: 0.5s;
+}
+
+.JerseyInfo .NavJersey ul li h2{
+  font-size: 2rem;
+}
+
+.JerseyInfo .NavJersey ul li h2:hover{
+  filter: invert(50%);
+  transition-duration: 0.5s;
+}
+
+.JerseyInfo .NavJersey ul li h2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.JerseyInfo .NavJersey ul li hr{
+  background: black;
+  border: none;
+  width: 2px;
+  height: 50px;
+}
+
+.JerseyEspecificaciones{
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  height: 600px;
+}
+
+.JerseyTexto{
+  width: 70%;
+  /* background: yellow; */
+}
+
+.JerseyTexto h2{
+  padding-left: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.JerseyTexto ul{
+  list-style: none;
+  line-height: 30px;
+}
+
+.JerseyTexto ul li p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+}
+
+.JerseyDetalles{
+  width: 30%;
+  text-align: center;
+}
+
+.JerseyDetalles img{
+  width: 100px;
+  height: auto;
+  padding: 2px 40px 2px 40px;
+  transition: 0.3s;
+}
+
+.JerseyDetalles img:hover{
+  width: 400px;
+  margin-right: 500px;
+  transform: translate(-200px, 0px);
+  margin: 0;
+}
+
+.Mockup2{
+  background: #D4CA9F;
+}
